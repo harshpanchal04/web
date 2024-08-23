@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felafax</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container nav-container">
+          <a href="/" class="logo-link">
+            <img src="images/felafax.svg" alt="Felafax" class="logo">
+          </a>
+          <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+            <svg><!-- Mobile menu icon --></svg>
+          </button>
+          <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#team">Team</a></li>
+            <li>
+              <a href="https://github.com/felafax/RoadRunnerX" class="gh-button">
+                <span>Star</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>
+              <span class="highlight">Enterprise AI Platform.</span>
+              Simple. Scalable. Open.
+            </h1>
+            <p class="subtitle">
+              Felafax is building AI infra for non-NVIDIA GPUs, it is 2X more
+              cost-efficient without sacrificing performance.
+            </p>
+            <div class="cta-buttons">
+              <a href="https://app.felafax.ai/" class="cta-primary">Try us now!</a>
+              <a href="https://cal.com/nikhilsv/meet" class="cta-secondary">Schedule Demo</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="images/demovid.png" alt="Felafax Demo">
+          </div>
+        </div>
+      </section>
+      
+      <section class="backed-by">
+        <div class="container">
+          <h2>Implemented At</h2>
+          <img src="images/CU-logo.png" alt="Y Combinator">
+        </div>
+      </section>
+
+      <section id="features" class="features">
+        <div class="container">
+          <h2 class="section-title">Key Features of Felafax</h2>
+          <div class="feature-grid">
+            <div class="feature">
+              <div class="icon blue">
+                <svg><!-- Scale icon --></svg>
+              </div>
+              <h3>Scale Effortlessly</h3>
+              <p>
+                One-click spin-up of clusters from 8 to 1024 TPU chips. Our 
+                framework seamlessly handles training orchestration at any scale.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="icon orange">
+                <svg><!-- Performance icon --></svg>
+              </div>
+              <h3>Performance at Lower Cost</h3>
+              <p>
+                Our custom training platform, built from the ground up, uses XLA 
+                compiler and JAX. Get H100-level performance at 30% lower cost.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="icon green">
+                <svg><!-- Security icon --></svg>
+              </div>
+              <h3>On-prem deployment</h3>
+              <p>
+                We deploy in your VPC, ensuring your data never leaves your 
+                network and remains secure and private.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="icon purple">
+                <svg><!-- MLOps icon --></svg>
+              </div>
+              <h3>We handle all ML Ops</h3>
+              <p>
+                We provide optimized model partitioning for larger models like 
+                Llama 3.1 405B, handle multi-controller training and inference. 
+                Focus on innovation, not infrastructure.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="icon teal">
+                <svg><!-- Customizable icon --></svg>
+              </div>
+              <h3>Highly Customizable</h3>
+              <p>
+                Use our no-code UI for fine-tuning or drop into a Jupyter notebook
+                to tailor your training run. Full control with zero compromises.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="icon navy">
+                <svg><!-- Templates icon --></svg>  
+              </div>
+              <h3>Out-of-the-Box Templates</h3>
+              <p>
+                Choose between PyTorch XLA or JAX. Get started quickly with 
+                pre-configured environments and all necessary dependencies installed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container">
+          <h2>
+            Want to fine-tune and deploy Llama3
+            <span class="highlight">in your enterprise VPC</span>?
+          </h2>
+          <p>Please reach out to us, and we'll work with you to get you set up. 🙂</p>
+          <a href="https://cal.com/nikhilsv/meet" class="cta-button">
+            <span>Reach out</span>
+            <svg><!-- Arrow icon --></svg>
+          </a>
+        </div>
+      </section>
+
+      <section id="team" class="team">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="team-grid">
+            <div class="team-member">
+              <img src="images/nikhil.jpg" alt="Nikhil Sonti">
+              <h3>Harsh Panchal</h3>
+              <p class="title">Founder &amp; CEO</p>
+              <p>
+                Over 6 years at Meta and 3+ years at Microsoft, Nikhil has worked 
+                on ML inference infrastructure for Facebook Feed, focusing on 
+                performance and efficiency.  
+              </p>
+              <a href="https://www.linkedin.com/in/nikhil-sv/" class="linkedin">
+                <svg><!-- LinkedIn icon --></svg>
+              </a>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="contact-content">
+            <h2>Let's connect</h2>
+            <p>
+              We're here to help and answer any questions you might have.
+              We look forward to hearing from you.
+            </p>
+          </div>
+          <div class="contact-methods">
+            <div class="method">
+              <div class="icon">
+                <svg><!-- Email icon --></svg>
+              </div>
+              <h3>Email</h3>
+              <a href="mailto:hello@felafax.ai" class="link">hello@felafax.ai</a>
+            </div>
+            <div class="method">
+              <div class="icon">
+                <svg><!-- Meeting icon --></svg>  
+              </div>
+              <h3>Meeting</h3>
+              <a href="https://cal.com/nikhilsv/meet" class="link">cal.com</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Felafax. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
