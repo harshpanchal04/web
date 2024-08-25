@@ -18,3 +18,19 @@ navLinkItems.forEach(link => {
     navLinks.classList.remove('active');
   });
 });
+
+// Animate on scroll
+const animateOnScroll = () => {
+  const elements = document.querySelectorAll('.feature, .team-member, .method');
+  elements.forEach(el => {
+    const rect = el.getBoundingClientRect();
+    const isVisible = rect.top <= window.innerHeight * 0.75;
+    if (isVisible) {
+      el.style.opacity = '1';
+      el.style.transform = 'translateY(0)';
+    }
+  });
+};
+
+window.addEventListener('scroll', animateOnScroll);
+window.addEventListener('load', animateOnScroll);
