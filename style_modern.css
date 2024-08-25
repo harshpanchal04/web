@@ -72,7 +72,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  /* box-shadow: 0 2px 10px rgba(0,0,0,0.1); */
   backdrop-filter: blur(5px);
 }
 
@@ -116,7 +116,7 @@ nav {
 
 /* Enhanced Hero Section */
 .hero {
-  background: linear-gradient(135deg, #f6f8ff 0%, #f1f4ff 100%);
+  /* background: linear-gradient(135deg, #f6f8ff 0%, #f1f4ff 100%); */
   text-align: center;
   padding: 120px 0;
   position: relative;
@@ -130,7 +130,8 @@ nav {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(79, 70, 229, 0.1) 0%, transparent 70%);
+  /* background: radial-gradient(circle, rgba(79, 70, 229, 0.1) 0%, transparent 70%); */
+  background-color: white;
   animation: rotate 20s linear infinite;
 }
 
@@ -327,7 +328,8 @@ nav {
 }
 
 .cta .highlight {
-  color: #A5B4FC;
+  /* color: #A5B4FC; */
+  font-weight: bolder;
 }
 
 .cta p {
